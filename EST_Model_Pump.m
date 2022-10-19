@@ -56,28 +56,28 @@ end
 T = tiledlayout(2,2);
 nexttile
 plot(v)
-xlim([2 60])
+xlim([2 t_end])
 title('Water speed over time')
 xlabel('Time [s]')
 ylabel('Velocity [m/s]')
 
 nexttile
 plot(Q)
-xlim([2 60])
+xlim([2 t_end])
 title('Flow rate over time')
 xlabel('Time [s]')
 ylabel('Flow rate [m^3/s]')
 
 nexttile
 plot(H_water)
-xlim([2 60])
+xlim([2 t_end])
 title('Water height over time')
 xlabel('Time [s]')
 ylabel('Height [m]')
 
 nexttile
 plot(V_water)
-xlim([2 60])
+xlim([2 t_end])
 title('Volume in reservoir over time')
 xlabel('Time [s]')
 ylabel('Volume [m^3]')
